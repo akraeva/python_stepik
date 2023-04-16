@@ -6,6 +6,6 @@ if x not in lst:
 else:
     while x in lst:
         i = lst.index(x)
-        print(i, end = ' ')
+        print(i, end=' ')
         lst[i] = x-1
     print()

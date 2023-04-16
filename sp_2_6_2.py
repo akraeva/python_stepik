@@ -8,5 +8,5 @@ while len(result) < count:
 
 result = result[:count]
 for i in result:
-    print(i, end = ' ')
+    print(i, end=' ')
 print()
