@@ -5,7 +5,7 @@ while len(nums) > 1:
     num = nums[0]
     nums = nums[1:]
     if num in nums:
-        print(num, end = ' ')
+        print(num, end=' ')
         while num in nums:
             nums = nums[1:]
 print()

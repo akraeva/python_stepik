@@ -1,6 +1,6 @@
 sum_nums = 1
 nums = []
-while sum_nums != 0 :
+while sum_nums != 0:
     sum_nums = 0
     nums.append(int(input()))
     for i in nums:

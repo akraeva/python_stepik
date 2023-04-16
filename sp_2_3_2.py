@@ -5,9 +5,9 @@ count = 0
 
 for i in range(a, b+1):
     if i % 3 == 0:
-        sum_num +=i
-        count +=1
+        sum_num += i
+        count += 1
 
-res = sum_num / count if count !=0 else 0
+res = sum_num / count if count != 0 else 0
 
 print(res)

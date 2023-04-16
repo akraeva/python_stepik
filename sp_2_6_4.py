@@ -1,6 +1,6 @@
 matrix = []
 string = ''
-while string!= 'end':
+while (string != 'end'):
     string = input()
     if string not in ['', 'end'] :
         matrix.append([int(i) for i in string.split()])
@@ -14,7 +14,7 @@ for i in range(str_count) :
         left = matrix[i][j-1] if j-1 >=0 else matrix[i][col_count-1]
         right = matrix[i][j+1] if j+1 < col_count else matrix[i][0]
         sum_elem = up + down + left + right
-        print (sum_elem, end = ' ')
+        print(sum_elem, end=' ')
     print()  
 
     

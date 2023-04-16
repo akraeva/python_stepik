@@ -5,7 +5,7 @@ while i <= 10:
     i = i + 1
     if i > 7:
         i = i + 2
-print (i)
+print(i)
 print(it)
 
 i = 0

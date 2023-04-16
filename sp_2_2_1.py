@@ -1,6 +1,6 @@
-while True :
+while True:
     num = int(input())
-    if num > 100 :
+    if num > 100:
         break
     elif num < 10:
         continue

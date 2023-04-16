@@ -6,4 +6,4 @@ num2_res = int(num2)
 
 num3 = 9**19 - int(float(9**19))
 
-print (num3)
+print(num3)
